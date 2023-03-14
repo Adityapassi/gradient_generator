@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient Genrator</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="gradient-box"></div>
+        <div class="row">
+            <div class="col direction">
+                <p>Directions</p>
+                <div class="select-box">
+                    <select name="" id="">
+                        <option value="to left top">Left Top</option>
+                        <option value="to top">Top</option>
+                        <option value="to left">Left</option>
+                        <option value="to bottom">Bottom</option>
+                        <option value="to right">Right</option>
+                        <option value="to right top">Right Top</option>
+                        <option value="to left bottom">Left Bottom</option>
+                        <option value="to right bottom">Right Bottom</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col colors">
+                <p>Colors</p>
+                <div class="inputs">
+                    <input type="color" value="#360033">
+                    <input type="color" value="#0b8793">
+                </div>
+            </div>
+        </div>
+       
+        <textarea name="" class="row" id="" class="text" disabled >background-image: linear-gradient(to left top, #360033,#0b8793);</textarea>
+        <div class="row buttons">
+            <button class="refresh">Refresh Color</button>
+            <button class="copy">Copy Color</button>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
