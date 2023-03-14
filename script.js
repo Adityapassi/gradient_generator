@@ -42,6 +42,6 @@ function randomColor(){
 // For Coping color on the clipboard for Copy Button
 function copyColor(){
     navigator.clipboard.writeText(textarea.value)
-    copy.textContent="Color Copied"
+    copy.innerHTML=`Color Copied &check;`
     setTimeout(()=>{copy.textContent="Copy Color"},2000)
 }
