@@ -29,7 +29,7 @@ function gradient(isRandom){
     
     gradientBox.style.backgroundImage=gradientColor;
     document.body.style.backgroundImage=gradientColor;
-    textarea.textContent=gradientColor
+    textarea.textContent=`background-image:${gradientColor}`
 }
 
 // For Genrating Random color for Refresh button
