@@ -108,4 +108,44 @@ textarea{
     background-color: #8a6cff;
 }
 
+@media (width <=1064px) {
+    .container{
+        width: 40%;
+    }
+}
+
+@media (width <=800px) {
+    .container{
+        width: 50%;
+    }
+}
+
+@media (width <=650px) {
+    .container{
+        width: 70%;
+    }
+
+    .colors {
+        margin-left: 10px;
+        padding-left: 23px;
+    }
+}
+
+@media (width <=500px) {
+    .container{
+        width: 85%;
+    }
+
+    .colors {
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    .colors input {
+        margin-right: 0px;
+        width: 90%;
+    }
+}
+
+
 
